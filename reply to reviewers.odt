@@ -1,0 +1,163 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="http://www.nongnu.org/elyxer/">
+<meta name="create-date" content="2016-12-05">
+<link rel="stylesheet" href="http://elyxer.nongnu.org/lyx.css" type="text/css" media="all">
+<title>Converted document</title>
+</head>
+<body>
+<div id="globalWrapper">
+<h1 class="Section">
+<a class="toc" name="toc-Section-1">1</a> Does the foam model fit the saturation data?
+</h1>
+<h1 class="Section">
+<a class="toc" name="toc-Section-2">2</a> Capillary number and pressure drop
+</h1>
+<div class="Unindented">
+We agree with reviewer’s comment that if the measurement of the gas-water relative permeability is not done in a condition that the viscous forces are not dominant, the measured relative permeability curve is not unique and by increasing the pressure gradient, a lower residual water saturation can be obtained. It is indeed the case for the gas-water core flooding experiments. However, the pressure gradient in the gas-water experiments is a few orders of magnitude higher in presence of foam. This is in fact one of the conclusions of Reynolds and Krevor <span class="bibcites">[<a class="bibliocite" name="cite-2" href="#biblio-2"><span class="bib-index">2</span></a>]</span>: “We demonstrate that, if measured in the viscous limit, relative permeability is invariant with changing reservoir conditions, and is consistent with the continuum-scale multiphase flow theory for water wet systems”. Table ??? shows the measured pressure drop in our core flooding experiments and plotted in Fig. <a class="Reference" href="#fig:pressure-drop-fac-flow">3↓</a>. At high gas to liquid ratio (<span class="formula"><i>f</i><sub><i>g</i></sub></span>, also called foam quality) the flow of foam is controlled by the generation/collapse of foam bubbles due to high capillary pressure. It is only the behavior of the bubbles and it does not mean that the flow is capillary-dominated. During the core flooding in this regime, we measured the pressure drop and average water saturation in different times, which is shown in Fig. <a class="Reference" href="#fig:Pressure-drop-high">1↓</a>. It can be seen that both the pressure drop and the liquid saturation fluctuate with time, which results in a relatively large uncertainty in the measured saturation. However, a very small fluctuation was observed for the measurement in the low gas fractional flows (see Fig. <a class="Reference" href="#fig:Pressure-drop-low">2↓</a>).
+</div>
+<div class="Indented">
+<div class="float">
+<a class="Label" name="fig:Pressure-drop-high"> </a><div class="figure">
+<img class="embedded" src="low60_to_high90.png" alt="figure low60_to_high90.png" style="width: 8cm; max-width: 688px; height: auto; max-height: 429px;">
+<div class="caption">
+Figure 1 Pressure drop and water saturation after switching from <span class="formula"><i>f</i><sub><i>g</i></sub></span>=0.6 to <span class="formula"><i>f</i><sub><i>g</i></sub></span>=0.9, versus number of pore volumes of fluid injected into the core. High degree of fluctuation is observed at high fractional flow.
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="Indented">
+<div class="float">
+<a class="Label" name="fig:Pressure-drop-low"> </a><div class="figure">
+<img class="embedded" src="high99_to_low60.png" alt="figure high99_to_low60.png" style="width: 8cm; max-width: 688px; height: auto; max-height: 429px;">
+<div class="caption">
+Figure 2 Pressure drop and water saturation after switching from <span class="formula"><i>f</i><sub><i>g</i></sub></span>=0.99 to <span class="formula"><i>f</i><sub><i>g</i></sub></span>=0.6, versus number of pore volumes of fluid injected into the core. A low fluctuation is observed at the low fractional flow.
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="Indented">
+For the above reasons, we do not use the measurements in the high gas fractional flow regime for the estimation of the water relative permeability curves. In fact, we only use the data for low gas fractional flow (low quality) regime, at which the capillary pressure is lower and the flow of foam is dominated by the mobilization and trapping of bubbles.
+</div>
+<div class="Indented">
+The calculated capillary number, using the following equation from Reynolds &amp; Krevor,<div class="formula">
+<a class="eqnumber" name="eq:capillary-number">(1) </a><i>N</i><sub><i>c</i></sub> = <span class="fraction"><span class="ignored">(</span><span class="numerator"><i>H</i></span><span class="ignored">)/(</span><span class="denominator"><i>L</i></span><span class="ignored">)</span></span><span class="fraction"><span class="ignored">(</span><span class="numerator">Δ<i>p</i></span><span class="ignored">)/(</span><span class="denominator">Δ<i>p</i><sub><i>c</i></sub></span><span class="ignored">)</span></span>, 
+</div>
+is plotted versus the measured liquid saturation in Fig. <a class="Reference" href="#fig:saturation-capillary-number">4↓</a>. For the relatively homogeneous core in our study (see the porosity profile in Fig. ???), we use a <span class="formula">Δ<i>p</i><sub><i>c</i></sub></span> of 5000 Pa, which is arguably larger than the actual value of the critical capillary pressure difference. The points depicted with gray markers show the data for the high gas fractional flow regime. The colored points show the data for the low gas fractional flow regime. It is clear from this figure that at a constant capillary number, the measured liquid saturation changes with the surfactant concentration. This shows that our measurements that are used in the calculation of the water relative permeability are not affected by the capillary-viscous force interplay. 
+</div>
+<div class="Indented">
+As the reviewer has pointed out, reporting these values could have made it clear. Therefore, we decided follow the points raised by the reviewer and add a short appendix to the paper with the above analysis. 
+</div>
+<div class="Indented">
+<div class="float">
+<a class="Label" name="fig:pressure-drop-fac-flow"> </a><div class="figure">
+<img class="embedded" src="Calculations/pressure_drop_AOS.png" alt="figure Calculations/pressure_drop_AOS.png" style="width: 8cm; max-width: 600px; height: auto; max-height: 400px;">
+<div class="caption">
+Figure 3 Measure pressure drop at different gas fractional flow for a constant total flow rate of 1 ml/min in a Bentheimer sandstone (<span class="formula"><i>φ</i></span>=0.21, <span class="formula"><i>k</i></span>=2.41<span class="formula"> × </span>10<span class="formula"><sup> − 12</sup></span> Darcy); the light gray markers show the high quality foam regime. 
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="Indented">
+<div class="float">
+<a class="Label" name="fig:saturation-capillary-number"> </a><div class="figure">
+<img class="embedded" src="Calculations/capillary_number_AOS.png" alt="figure Calculations/capillary_number_AOS.png" style="width: 8cm; max-width: 600px; height: auto; max-height: 400px;">
+<div class="caption">
+Figure 4 Measured saturation in the core flooding experiment versus capillary number at different AOS surfactant concentrations
+</div>
+
+</div>
+
+</div>
+
+</div>
+<h1 class="Section">
+<a class="toc" name="toc-Section-3">3</a> Water-gas rel-perm in absence of surfactant
+</h1>
+<div class="Unindented">
+The fact that the relative permeability in the absence of surfactant needs to be measured at a high pressure gradient is pointed out by reviewer 1 and reviewer 2. The measurement that we have reported in the paper was not performed in our lab, but in a service company on a core sample from the same Bentheimer block on the request of one of our former colleagues at TU Delft. We did not study the data carefully and simply reported it in our work. After receiving the comments, we contacted the service company for more information and it turned out that the measurement is done in a core flooding experiment and the saturation is measured by monitoring the weight of the core holder. This experiment is, by no means, adequate. Therefore we removed the data from the manuscript, and replaced it with data from the literature [ref ???]. Consequently, we slightly amend the manuscript and the conclusions accordingly. All the changes are shown in the revised manuscript with a different color.
+</div>
+<div class="Indented">
+Nevertheless, the main conclusions of the manuscript does not change as discussed in the next section.
+</div>
+<h1 class="Section">
+<a class="toc" name="toc-Section-4">4</a> Effect of <i>fmdry</i> on the foam model behavior
+</h1>
+<div class="Unindented">
+The main discussion of the paper is that the liquid relative permeability changes with different surfactant concentration, which includes zero surfactant, i.e., water-gas relative permeability. Unfortunately we don’t have experimental data to support the last claim, which is clarified in the manuscript.
+</div>
+<div class="Indented">
+Reviewer 1 has raised a very relevant point: the water relative permeability in the absence absence of surfactant should be measured at a pressure gradient similar to the pressure gradients in presence of surfactant, e.g., in a centrifuge. What we would like to add is that the measured relative permeability in a centrifuge is still not enough to model the flow of foam in porous media, particularly in predicting the water saturation that can only be predicted by introducing a residual water saturation that is a function of the surfactant concentration.
+</div>
+<div class="Indented">
+To demonstrate the above claim, we tried to use a single water-relative permeability and fit the foam model to the pressure gradient data for different surfactant concentrations. As stated by reviewer 1, the measured liquid saturation in our experiment is close to the parameter <i>fmdry</i>. Therefore, we assign the lowest measured liquid saturation (for each experiment) to the parameter <i>fmdry</i> and optimize the rest of the foam model parameters. For the parameter optimization, we use the least-square method and the method suggested by Boeije and Rossen <span class="bibcites">[<a class="bibliocite" name="cite-1" href="#biblio-1"><span class="bib-index">1</span></a>]</span>. We choose the relative permeability with the lowest residual water saturation (0.5 wt% AOS), because the parameter <i>fmdry</i> must be able to acquire values larger than the residual water saturation.
+</div>
+<div class="Indented">
+The foam model with a fixed value of <i>fmdry</i> fitted to the pressure gradient measurements for 0.1 wt% AOS-nitrogen flooding is shown in Fig. <a class="Reference" href="#fig:Fitting-boeije">5↓</a> (Boeije &amp; Rossen method) and Fig. <a class="Reference" href="#fig:Fitting-lsq">6↓</a> (least square fit). By fixing the value of fmdry to the lowest measured water saturation, it is not possible to fit the foam model to the rest of the measured pressure gradient (apparent foam viscosity) data. However, by letting the optimization method to optimize the <i>fmdry</i> parameter, it converges to a value that is close to the chosen residual water saturation and therefore does not fit to the measured water saturation data (Fig. ).
+</div>
+<div class="Indented">
+<div class="float">
+<a class="Label" name="fig:Fitting-boeije"> </a><div class="figure">
+<img class="embedded" src="Calculations/Boeije_Rossen_mid_AOS_fixed_fmdry.png" alt="figure Calculations/Boeije_Rossen_mid_AOS_fixed_fmdry.png" style="width: 16cm; max-width: 1020px; height: auto; max-height: 397px;">
+<div class="caption">
+Figure 5 Fitting foam model to the 0.1 wt% AOS-N<span class="formula"><sub>2</sub></span> core flooding data using the method of Boeije &amp; Rossen with a fixed <i>fmdry</i>=0.202; the black dashed line (left) shows the final fit to the experimental data
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="Indented">
+<div class="float">
+<a class="Label" name="fig:Fitting-lsq"> </a><div class="figure">
+<img class="embedded" src="Calculations/LSQ_mid_AOS_fixed_fmdry.png" alt="figure Calculations/LSQ_mid_AOS_fixed_fmdry.png" style="width: 16cm; max-width: 865px; height: auto; max-height: 317px;">
+<div class="caption">
+Figure 6 Fitting foam model to the 0.1 wt% AOS-N<span class="formula"><sub>2</sub></span> core flooding data using a least-square optimization method with a fixed <i>fmdry</i>=0.202 
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="Indented">
+<div class="float">
+<a class="Label" name="Figure-7"> </a><div class="figure">
+<img class="embedded" src="Calculations/LSQ_mid_AOS_var_fmdry.png" alt="figure Calculations/LSQ_mid_AOS_var_fmdry.png" style="width: 16cm; max-width: 865px; height: auto; max-height: 317px;">
+<div class="caption">
+Figure 7 Fitting foam model to the 0.1 wt% AOS-N<span class="formula"><sub>2</sub></span> core flooding data using a least-square optimization method with a variable <i>fmdry</i>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="Indented">
+<h1 class="biblio">
+References
+</h1>
+<p class="biblio">
+<span class="entry">[<a class="biblioentry" name="biblio-1"><span class="bib-index">1</span></a>] </span> <span class="bib-authors">Christian Simon Boeije, William Rossen, others</span>. <span class="bib-title">Fitting foam-simulation-model parameters to data: I. Coinjection of gas and liquid</span>. <i><span class="bib-journal">SPE Reservoir Evaluation & Engineering</span></i>, <span class="bib-volume">18</span>(<span class="bib-number">02</span>):<span class="bib-pages">264—272</span>, <span class="bib-year">2015</span>.
+</p>
+<p class="biblio">
+<span class="entry">[<a class="biblioentry" name="biblio-2"><span class="bib-index">2</span></a>] </span> <span class="bib-authors">CA Reynolds, S Krevor</span>. <span class="bib-title">Characterizing flow behavior for gas injection: Relative permeability of CO2-brine and N2-water in heterogeneous rocks</span>. <i><span class="bib-journal">Water Resources Research</span></i>, <span class="bib-volume">51</span>(<span class="bib-number">12</span>):<span class="bib-pages">9464—9489</span>, <span class="bib-year">2015</span>.
+</p>
+
+</div>
+
+</div>
+</body>
+</html>
