@@ -71,10 +71,6 @@
 \begin_body
 
 \begin_layout Section
-Does the foam model fit the saturation data?
-\end_layout
-
-\begin_layout Section
 Capillary number and pressure drop
 \end_layout
 
@@ -1321,6 +1317,7 @@ Pressure drop measurements in the core flooding experiments; part of the
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -1328,7 +1325,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename low60_to_high90.png
-	width 8cm
+	width 10cm
 
 \end_inset
 
@@ -1376,7 +1373,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename high99_to_low60.png
-	width 8cm
+	width 10cm
 
 \end_inset
 
@@ -1444,7 +1441,14 @@ reference "fig:saturation-capillary-number"
 .
  For the relatively homogeneous core in our study (see the porosity profile
  in Fig.
- ???), we use a 
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Porosity-profile"
+
+\end_inset
+
+), we use a 
 \begin_inset Formula $\Delta p_{c}$
 \end_inset
 
@@ -1467,6 +1471,52 @@ As the reviewer has pointed out, reporting these values could have made
  Therefore, we decided follow the points raised by the reviewer and add
  a short appendix to the paper with the above analysis.
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename porosity_core_CT.png
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename porosity_core_hist.png
+	width 9cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Porosity-profile"
+
+\end_inset
+
+Porosity profile for a cross-section of the bentheimer core
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1500,7 +1550,7 @@ Measure pressure drop at different gas fractional flow for a constant total
 \begin_inset Formula $\varphi$
 \end_inset
 
-=0.21, 
+=0.18, 
 \begin_inset Formula $k$
 \end_inset
 
@@ -1584,7 +1634,14 @@ The fact that the relative permeability in the absence of surfactant needs
  core holder.
  This experiment is, by no means, adequate.
  Therefore we removed the data from the manuscript, and replaced it with
- data from the literature [ref ???].
+ data from the literature 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "reynolds2015characterizing"
+
+\end_inset
+
+.
  Consequently, we slightly amend the manuscript and the conclusions accordingly.
  All the changes are shown in the revised manuscript with a different color.
 \end_layout
@@ -1688,7 +1745,14 @@ fmdry
  parameter, it converges to a value that is close to the chosen residual
  water saturation and therefore does not fit to the measured water saturation
  data (Fig.
- ).
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Fitting-foam-model"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Standard
@@ -1807,6 +1871,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Fitting-foam-model"
+
+\end_inset
+
 Fitting foam model to the 0.1 wt% AOS-N
 \begin_inset Formula $_{2}$
 \end_inset
@@ -1827,8 +1897,316 @@ fmdry
 
 \end_layout
 
+\begin_layout Section
+Other comments
+\end_layout
+
 \begin_layout Standard
-New Swc for the 0.5wt% surfactant is 0.135429.
+1.
+ The experimental set up section is missing key details such as the permeability
+ of the core and details of the core holder construction.
+ I cannot tell if the core is epoxied into the PEEK holder or if it is of
+ the Hasseler sleeve type design.
+ If there is an overburden pressure applied, please specify it.
+ The interfacial tensions of all of the fluids should be mentioned for completen
+ess.
+ 
+\end_layout
+
+\begin_layout Standard
+Reply: more detail is added to the experimental section now.
+ The bentheimer core was covered with epoxy but not glued into the core
+ holder.
+ Instead, the dried epoxy on the surface of the core was shaped with a threading
+ machine so the epoxy-covered core could be placed into the core holder,
+ as shown in Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Core-holder-design"
+
+\end_inset
+
+.
+ A confining (overburden) pressure equal to the injection pressure was applied,
+ which is equal to the back pressure (95 bar) plus the pressure drop in
+ the core.
+ 
+\end_layout
+
+\begin_layout Standard
+The interfacial tensions are also added to the paper, also in the following
+ table.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Surfactant
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.03wt% AOS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.1wt% AOS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.5wt% AOS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Amphosol
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Surface tension [mN/m]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+38.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+32.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+33.9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+33.4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename coreholder.png
+	width 7cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Core-holder-design"
+
+\end_inset
+
+Core holder design
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2.
+ The choice to measure the water/gas relative permeability in a centrifuge
+ but to measure the foam relative permeabilities in a coreflood apparatus
+ is disconcerting.
+ One might ascribe the differences measured to differences in the measurement
+ techniques.
+ So some further commentary and justification are needed.
+ More details about the centrifuge technique are also needed (i.e., RPM at
+ the very least) because of the interplay of capillarity and viscous forces
+ described above.
+ Small RPM on the centrifuge could be ascribed to the differences measured
+ in Swc.
+ 
+\end_layout
+
+\begin_layout Standard
+Reply: we eliminated those data points as they were not measured in a centrifuge
+, but in a core flooding experiment.
+ Instead, we used the water-nitrogen rel-perm data from the work of Reynolds
+ & Krevor 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "reynolds2015characterizing"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename liquidrelperm.png
+	width 9cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Water relative permeability in presence of different concentrations of AOS,
+ and the gas-water rel-perms in the absence of surfactant
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+3.
+ It is mentioned that the coreholder is installed vertically.
+ What steps are taken to minimize CT-scanning artifacts that result from
+ this geometry? Did the authors measure the spatial distribution of water
+ saturation during the various experiments? These could/should be described.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\color blue
+Reply: we used the measurements from the middle section of the core, since
+ it is known that the effect of beam hardening at that section of the core
+ is minimal.
+ We always measured the spatial distribution of the liquid saturation.
+ 
+\end_layout
+
+\begin_layout Standard
+4.
+ Foam is composed mainly of gas and so it is a compressible fluid.
+ I suggest writing Eq.
+ (1) as it should be written for a compressible fluid.
+ That is, the difference between the square of the pressures, and so on,
+ should be used.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\color blue
+Reply: 
+\end_layout
+
+\begin_layout Standard
+5.
+ In considering the mobility of the foamed gas, the authors explicitly separate
+ the mobility of foam into relative permeability and viscosity—note that
+ they report foam apparent viscosity in Fig.
+ 4(a).
+ This point needs some discussion as it has been argued rather strongly
+ elsewhere that such a separation is inappropriate for foam and now here
+ it is being done.
+\end_layout
+
+\begin_layout Standard
+
+\color blue
+Reply: we only see the effect of foam on reducing the mobility of the gas
+ phase in the relative permeability.
+ The apparent foam viscosity is a way of reporting the scaled pressure drop
+ measured in the core flooding experiments.
+ We understand that it can be confusing to the reader.
+ We have clarified it in the text.
 \end_layout
 
 \begin_layout Standard
