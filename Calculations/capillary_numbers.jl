@@ -4,8 +4,9 @@
 # Nc=H/L dP/dPc
 using DataFrames, Plots
 # constants
-dpc = 5e3 # Pa
+dpc = 1e3 # Pa
 L=0.17 # m core length
+D_core =0.038 # core diameter
 H_over_L=0.2 # simensionless
 
 # data files
@@ -19,7 +20,8 @@ markers=[:circle, :square, :utriangle, :diamond]
 
 # read the data files
 i=0
-plot()
+plot(size=(500,400), xtickfont = Plots.font(10, "Courier"), ytickfont=Plots.font(10, "Courier"),
+  legendfont=Plots.font(10, "Courier"),  guidefont=Plots.font(12, "Courier"))
 for data_file in data_files
   data1=readtable(data_file)
   ug = float(data1[:ug]) # [m/s]
@@ -55,12 +57,13 @@ for data_file in data_files
   scatter!(data1[:dp_tot][ind_fg_low]*1e5/dpc*H_over_L, data1[:sw_ave][ind_fg_low], marker=markers[i]
   , markersize=7, label=labels[i])
 end
-plot!(ylabel="Liquid saturation", xlabel="Capillary number", ylims=(0,0.3))
+plot!(ylabel="Liquid saturation", xlabel="Capillary number", ylims=(0.1,0.3))
 
 savefig("capillary_number_AOS.png")
 # plot pressure drops
 i=0
-plot()
+plot(size=(500,400), xtickfont = Plots.font(10, "Courier"), ytickfont=Plots.font(10, "Courier"),
+  legendfont=Plots.font(10, "Courier"),  guidefont=Plots.font(12, "Courier"))
 for data_file in data_files
   data1=readtable(data_file)
   ug = float(data1[:ug]) # [m/s]
@@ -96,5 +99,5 @@ for data_file in data_files
   scatter!(fg_low, data1[:dp_tot][ind_fg_low], marker=markers[i]
   , markersize=7, label=labels[i])
 end
-plot!(ylabel="Pressure drop [Pa]", xlabel="Gas fractional flow")
+plot!(ylabel="Pressure drop [bar]", xlabel="Gas fractional flow")
 savefig("pressure_drop_AOS.png")
